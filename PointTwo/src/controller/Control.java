@@ -57,7 +57,7 @@ public class Control{
 	private static void copyFilesBin(String filePath1,String filePath2,String newFilePath) {
 		try {
 			String textData;
-			Boolean clean = false;
+			Boolean clean = true;
 			File outputFile=new File(newFilePath);
 			if (outputFile.exists()) {
 				String clearFile = io.readGraphicString("The file already exists"+"\n"+"Do you want to clear it? (yes/no)");
