@@ -19,7 +19,7 @@ public class Control{
 		int opcionTipeFile=0;
 		String extension=".";
 		opcionTipeFile=io.readMenu();
-
+		try{
 		switch (opcionTipeFile) {
 		case 1: 
 			extension+="bin";
@@ -36,6 +36,9 @@ public class Control{
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + opcionTipeFile);
 		}
+	}catch (NumberFormatException e) {
+		io.showGraphicErrorMessage("Debe ingresar un numero entero");
+	}
 		io.showGraphicMessage("¡SEE YOU LATER!");
 	}
 
