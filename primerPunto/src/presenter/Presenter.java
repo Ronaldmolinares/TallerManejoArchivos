@@ -4,7 +4,6 @@ import view.View;
 
 public class Presenter {
 
-
 	public void run() {
 		View view = new View();
 		FileWithoutSpaces archive = new FileWithoutSpaces();	
@@ -12,7 +11,7 @@ public class Presenter {
 		int opcion;
 
 		do {
-			view.showMessage("****** Bienvenido ******");
+			view.showMessage("******** Bienvenido ********");
 			view.showMessage("1. Mostrar archivo sin espacios");
 			view.showMessage("2. Salir");
 
