@@ -74,7 +74,7 @@ public class Presenter {
         String Brand = view.readStringLine("Dijete la Marca ");
         String Model = view.readStringLine("Dijete el modelo ");
         int Year = view.readIntegers("Dijete el año  ");
-        String Plate = view.readStringLine("Dijete la Placa ");
+        String Plate = view.readStringLine("Dijete la Placa AAA123 ");
         String Color = view.readStringLine("Dijete el color ");
         Vehicle vehicle = new Vehicle( id ,Brand,  Model,  Color,  Year,  Plate);
         System.out.println(vehicle);
@@ -88,8 +88,8 @@ public class Presenter {
              vehicle.setBrand(stream.readUTF());
              vehicle.setModel(stream.readUTF());
              vehicle.setYear(stream.readInt());
-              vehicle.setPlate(stream.readUTF());
-              vehicle.setColor(stream.readUTF());
+             vehicle.setPlate(stream.readUTF());
+             vehicle.setColor(stream.readUTF());
             } catch (IOException e) {
                 e.printStackTrace();
             }
