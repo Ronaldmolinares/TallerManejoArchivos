@@ -1,4 +1,3 @@
-# tallerManejoArchivos
-tallerManejoArchivos
+# Taller Manejo De Archivos
 
-Solución del taller 
+Solución de los puntos solicitados a desaarrollar con la tematica de persistencia y manejo de archivos en java.
