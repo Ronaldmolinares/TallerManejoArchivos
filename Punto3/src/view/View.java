@@ -41,9 +41,9 @@ public class View {
         int opcion = 0;
         return opcion = readIntegers("\nIngrese la opcion que desea relizar:"+
                 "\n[1]Crear un nuevo vehículo"+
-                "\n[2] Encuentra todos los vehículos "+
-                "\n[3] Encuentra un vehículo por id"+
-                "\n[0]Salir");
+                "\n[2]Buscar todos los vehículos "+
+                "\n[3]Buscar un vehículo por id"+
+                "\n[4]Salir");
 
     }
 }

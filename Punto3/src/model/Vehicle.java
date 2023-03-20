@@ -72,6 +72,7 @@ public class Vehicle {
     @Override
     public String toString() {
         return "Vehículo: " +
+                "ID:' "+id+ '\'' +
                 " Marca:'" + brand + '\'' +
                 " Modelo:'" + model + '\'' +
                 " Color:'" + color + '\'' +
